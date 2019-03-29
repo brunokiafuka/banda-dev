@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import PopperJs from 'popper.js';
+import $ from "jquery"
+import "bootstrap/dist/js/bootstrap"
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./global.css"
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
